@@ -1,0 +1,25 @@
+body{
+	background-color: #53BFE0;
+}
+
+.button1{
+	width: 130px;
+	color: #53BFE0;
+	text-align: center;
+	font-size: 16px;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	margin: 40px;
+	background-color: white;
+	border-radius: 5px;
+	border: 4px solid #CCCCCC;
+}
+
+.button1:hover{
+	-webkit-animation: 'run' 1.5s infinite;
+}
+
+@-webkit-keyframes run{
+	0%{ border: 4px solid transparent;}
+	50%{ border: 4px solid #CCCCCC;}
+	100%{ border: 4px solid transparent;}
