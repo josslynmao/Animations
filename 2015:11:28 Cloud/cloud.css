@@ -2,6 +2,11 @@ body{
 	background-color: #C0F5FF;
 }
 
+a{
+	text-decoration: none;
+	color: #FD6CA3;
+}
+
 #cloud{
 	display: float;
 	float: left;
@@ -55,6 +60,13 @@ body{
 }
 
 .code{
+	background-color: white;
+	color: #FD6CA3;
+	font-size: 2em;
+	text-shadow: 2px 2px #e2e2e2;
+}
+
+.instruction{
 	padding: 20px;
 	margin-top: 20px;
 	margin-right:20px;
@@ -83,9 +95,9 @@ body{
 .button{
 	font-family: Helvetica;
 	font-size: 16px;
-	border-radius: 5px;
+	border-radius: 10px;
 	text-align: center;
 	width: 10em;
 	border: 2px solid #FD6CA3;
-	padding: 5px;
+	padding: 10px;
 }
