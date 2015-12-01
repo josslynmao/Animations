@@ -1,3 +1,9 @@
+@font-face
+{
+	font-family: Beauty;
+	src: url('axisstd-ultralight.otf');
+}
+
 body{
 	background-color: #C0F5FF;
 }
@@ -67,10 +73,10 @@ img{
 }
 
 .code{
+	font-family: Helvetica;
 	background-color: white;
 	color: #91D5FF;
 	font-size: 22px;
-	text-shadow: 2px 2px #e2e2e2;
 }
 
 .instruction{
@@ -85,7 +91,7 @@ img{
 	box-shadow: 10px 10px #e2e2e2;
 	color: #FD6CA3;
 	font-size: 2em;
-	text-shadow: 2px 2px #e2e2e2;
+	font-family: Beauty;
 }
 
 #codestyle{
@@ -104,7 +110,12 @@ img{
 	font-size: 16px;
 	border-radius: 10px;
 	text-align: center;
-	width: 10em;
+	text-shadow:none;
+	width: 20em;
 	border: 2px solid #FD6CA3;
 	padding: 10px;
+}
+
+.instruction>p{
+	font-family: Beauty;
 }

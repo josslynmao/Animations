@@ -3,6 +3,7 @@ $(document).ready(function(){
 	$code.hide();
 	var $showCode = $("div.button");
 	$showCode.click(function(){
-		$code.show(3000);
+
+		$code.slideDown(5000);
 	});
 });
