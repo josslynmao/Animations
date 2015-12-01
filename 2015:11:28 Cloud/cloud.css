@@ -3,6 +3,8 @@ body{
 }
 
 #cloud{
+	display: float;
+	float: left;
 	width: 240px;
     height: 150px;
     position: relative;
@@ -50,4 +52,30 @@ body{
 	0%{ margin-left: 40px;}
 	50%{ margin-left: 100px;}
 	100%{ margin-left: 40px;}
+}
+
+.code{
+	padding: 20px;
+	margin-top: 20px;
+	margin-right:20px;
+	display: float;
+	float: right;
+	background-color: white;
+	width: 50%;
+	border-radius: 10px;
+	box-shadow: 10px 10px #e2e2e2;
+	color: #FD6CA3;
+	font-size: 2em;
+	text-shadow: 2px 2px #e2e2e2;
+}
+
+#codestyle{
+	padding: 5px 0px 5px 20px;
+	width: 100%;
+	border: transparent;
+	border-radius: 10px;
+	font-size: 16px;
+	font-family: Helvetica;
+	color: #FD6CA3;
+	line-height: 1.5em;
 }
