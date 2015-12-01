@@ -7,6 +7,13 @@ a{
 	color: #FD6CA3;
 }
 
+img{
+	box-shadow: 5px 5px #e2e2e2;
+	height: 30%;
+	width: 30%;
+	margin: 35px;
+}
+
 #cloud{
 	display: float;
 	float: left;
@@ -61,8 +68,8 @@ a{
 
 .code{
 	background-color: white;
-	color: #FD6CA3;
-	font-size: 2em;
+	color: #91D5FF;
+	font-size: 22px;
 	text-shadow: 2px 2px #e2e2e2;
 }
 
